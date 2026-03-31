@@ -38,7 +38,7 @@ class DocumentationResource extends Resource
     public static function getPages(): array
     {
         return [
-            'view' => ViewDocumentation::route('/{record?}'),
+            'view' => ViewDocumentation::route('/{record}'),
         ];
     }
 
